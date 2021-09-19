@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/runbg"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".SignUp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/logo1"/>
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Username"
+            android:textColorHint="#DFDEDE"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:hint="E-mail"
+            android:textColorHint="#DFDEDE"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:hint="Password"
+            android:textColorHint="#DFDEDE"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/alreadyHaveAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="Already have account"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Sign Up"
+            app:cornerRadius="4dp" />
+
+        <Button
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:backgroundTint="#EFEFEF"
+            android:id="@+id/btnGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_search"
+            android:padding="15dp"
+            android:text="Google"
+            android:textColor="@color/black"
+            app:cornerRadius="6dp" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/loader"/>
+
+</RelativeLayout>

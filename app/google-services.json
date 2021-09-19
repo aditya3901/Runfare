@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "397153831679",
+    "project_id": "runfare",
+    "storage_bucket": "runfare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397153831679:android:b9619e0d6b3329dfb45aca",
+        "android_client_info": {
+          "package_name": "com.project.runfare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397153831679-j75v1f6flrd3qgsh613lo43nm1n2qg26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.runfare",
+            "certificate_hash": "c5257e9eedbb77be38b15d133e50202e41f35e08"
+          }
+        },
+        {
+          "client_id": "397153831679-18ig8dhtet1lkuu3cp2ure56q5jo8saf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2xMWglIyl4QAj-CRWXVHP8jRnHECj_bY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397153831679-18ig8dhtet1lkuu3cp2ure56q5jo8saf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

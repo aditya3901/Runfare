@@ -16,7 +16,7 @@ class SplashScreen : AppCompatActivity() {
 
         splashIcon.alpha = 0f
         splashIcon.animate().setDuration(1100).alpha(1f).withEndAction {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             finish()

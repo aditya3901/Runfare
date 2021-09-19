@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/afghan"/>
+                android:src="@drawable/disaster"/>
         </androidx.cardview.widget.CardView>
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:text="Afghan Relief Fund"
+                android:text="Disaster Management"
                 android:textSize="16sp"
                 android:fontFamily="casual"
                 android:textStyle="bold"
@@ -47,7 +47,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="To help the people in Afghanistan who are under the Taliban terrorism and to provide them basic livelihood goods."
+                android:text="This fund will be utilised towards reconstruction &amp; financial assistance of disaster struck areas."
                 android:textColor="@color/white"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -86,7 +86,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="Covid Relief Fund"
+                android:text="Healthcare Fund"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -97,7 +97,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="To help the people and their families who are affected by Covid by providing necessary goods."
+                android:text="To help the financially weak people &amp; their families by providing necessary goods, vaccines &amp; other amenities."
                 android:textColor="@color/white"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -121,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/africa" />
+                android:src="@drawable/education" />
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
@@ -136,7 +136,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="African Relief Fund"
+                android:text="Education Fund"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -147,7 +147,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="To help the people in Africa by providing them food, clean drinking water, education and other basic amenities."
+                android:text="To help the children of Odisha by buying them books &amp; stationary to get basic education they deserve."
                 android:textColor="@color/white"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -171,7 +171,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/climate" />
+                android:src="@drawable/women" />
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
@@ -186,7 +186,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="Climate Change Fund"
+                android:text="Women Security"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -197,7 +197,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="casual"
-                android:text="To help climate change activists and to contribute towards helping the earth survive."
+                android:text="To provide financial aid to NGOs working towards women's safety and help them in their campaign."
                 android:textColor="@color/white"
                 android:textSize="14sp" />
         </LinearLayout>
